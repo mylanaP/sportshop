@@ -1,0 +1,48 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: partners.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Partners logo Styles
+-----------------------------------------------------------------*/
+.logos {
+	display: flex;
+}
+
+.logo-item {
+	border-radius: 0;
+	max-width: 10.625rem;
+	height: 8.875rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	margin: 0 1rem;
+
+	@include media-breakpoint-up(lg) {
+		margin: 0 5.375rem 0 0;
+	}
+
+	img {
+		width: 4rem;
+	}
+}
+
+.logo-brand {
+	font-family: $headings-font-family;
+	letter-spacing: 0.2rem;
+	color: #9e8edf;
+
+	h3 {
+		font-size: 1.8rem;
+		color: #9e8edf;
+	}
+
+	span {
+		font-size: 0.8rem;
+	}
+}
